@@ -98,3 +98,12 @@ ul{
 .slick-dots .slick-active button{
     background-color:rgba(12, 27, 192, 0.55) ;
 }
+.Crayzes{
+    text-align: center;
+    padding: 50px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.text_12{
+    font-weight: 700;
+    color: rgba(53, 53, 53, 0.741);
+}
