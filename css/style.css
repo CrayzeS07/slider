@@ -71,10 +71,12 @@ ul{
         background-image: url('../img_code/arrow2.svg');
         background-position: center;
             background-size: 50px 50px;
+            
 }
 .slider:hover{
     .slick-arrow{
         background-color:rgba(182, 193, 193, 0.254) ;
+            transition: 400ms ease;
     }
 }
 .slick-dots{
@@ -94,9 +96,11 @@ ul{
 }
 .slick-dots button:hover{
     background-color:rgba(209, 19, 19, 0.667);
+            transition: 400ms ease;
 }
 .slick-dots .slick-active button{
     background-color:rgba(12, 27, 192, 0.55) ;
+            transition: 800ms ease;
 }
 .Crayzes{
     text-align: center;
