@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+   text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.img_1{
+    width: 100%;
+}
+.slick-track{
+    display: flex;
+}
+.slick-list{
+    overflow: hidden;
+}
+.item{
+    padding: 0 5px;
+}
+.slider{
+    position: relative;
+    margin-top: 60px;
+}
+.slick-next{
+    font-size: 0;
+    cursor: pointer;
+    right: 0;
+    left:1195px;
+    top: 334.5px;
+    transform: translateY(-50%);
+    position: absolute;
+    background-color: rgba(91, 95, 95, 0.795);
+    width: 80px;
+    height: 689px;
+    border-radius: 0px 50px 50px 0px;
+        -webkit-border-radius: 0px 50px 50px 0px;
+        -moz-border-radius: 0px 50px 50px 0px;
+}
+.slick-arrow{
+    font-size: 0;
+    width: 80px;
+    height: 668px;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    background-color: rgba(182, 193, 193, 0);
+        background-repeat: no-repeat;
+            background-image: url('../img_code/arrow1.svg');
+            background-position: center;
+            background-size: 50px 50px;
+}
+.slick-prev{
+    z-index: 1;
+    top: 334.5px;
+    left: -75px;
+    transform: translateY(-50%);
+    border-radius: 50px 0px 0px 50px;
+        -webkit-border-radius: 50px 0px 0px 50px;
+        -moz-border-radius: 50px 0px 0px 50px;
+        background-repeat: no-repeat;
+        background-image: url('../img_code/arrow2.svg');
+        background-position: center;
+            background-size: 50px 50px;
+}
+.slider:hover{
+    .slick-arrow{
+        background-color:rgba(182, 193, 193, 0.254) ;
+    }
+}
+.slick-dots{
+    display: flex;
+    margin-top: 50px;
+    gap: 10px;
+    justify-content: center;
+}
+.slick-dots button{
+    width: 60px;
+    border-radius: 5px;
+    height: 10px;
+    border: none;
+    font-size: 0;
+    background-color:rgba(134, 134, 133, 0.373);
+    cursor: pointer;
+}
+.slick-dots button:hover{
+    background-color:rgba(209, 19, 19, 0.667);
+}
+.slick-dots .slick-active button{
+    background-color:rgba(12, 27, 192, 0.55) ;
+}
